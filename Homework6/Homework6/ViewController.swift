@@ -16,12 +16,23 @@ class ViewController: UIViewController {
     @IBOutlet var continueButton: UIButton!
     
     @IBAction func segmentedControllerDidChangeValue(_ sender: UISegmentedControl) {
+        if segmentedController.isSelected && selectionSwitch.isSelected && selectionButton.isSelected {
+            continueButton.isEnabled = true
+        }
     }
     
     @IBAction func selectionSwitchDidChangeValue(_ sender: UISwitch) {
+        if segmentedController.isSelected && selectionSwitch.isSelected && selectionButton.isSelected {
+            continueButton.isEnabled = true
+        }
     }
     
     @IBAction func selectionButtonTapped(_ sender: UIButton) {
+        if segmentedController.isSelected && selectionSwitch.isSelected && selectionButton.isSelected {
+            continueButton.isEnabled = true
+        }
+        
     }
+
 }
 
