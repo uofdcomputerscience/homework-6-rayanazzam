@@ -37,7 +37,7 @@
                                 <state key="normal" title="Continue"/>
                                 <connections>
                                     <action selector="shouldContinue:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DHG-SV-Nf4"/>
-                                    <segue destination="kcC-93-JPa" kind="presentation" id="jdl-GY-F4c"/>
+                                    <segue destination="kcC-93-JPa" kind="modal" id="bbB-o6-PNn"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u0L-qu-HGi">
